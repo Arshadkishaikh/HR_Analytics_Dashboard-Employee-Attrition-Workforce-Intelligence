@@ -18,9 +18,7 @@
 - [Tools & Technologies](#️-tools--technologies)
 - [DAX Measures](#-dax-measures--calculations)
 - [Dashboard Features](#-dashboard-features)
-- [Project Structure](#-project-structure)
 - [How to Use](#-how-to-use)
-- [Future Enhancements](#-future-enhancements)
 - [Author](#-author)
 
 ---
@@ -186,43 +184,6 @@ SWITCH(
 
 ---
 
-## ✨ Dashboard Features
-
-| Feature | Description |
-|---|---|
-| **5 KPI Cards** | Instant snapshot of Overall Employees, Attrition, Attrition Rate, Active Employees, and Average Age |
-| **Education Slicer** | Filter the entire dashboard by education level — Associates, Bachelor's, Doctoral, High School, Master's |
-| **Department-wise Attrition Pie Chart** | Visual breakdown of attrition contribution per department |
-| **Age Group Bar Chart** | Gender-segmented employee distribution across 5 age bands |
-| **Job Satisfaction Matrix** | Ratings 1–4 for 9 job roles with row totals for comparative analysis |
-| **Education Field Attrition Bar Chart** | Ranked horizontal bars showing attrition volume by education background |
-| **Gender Attrition Donut Charts** | Side-by-side donut charts per age group showing male vs. female attrition split |
-| **Fully Interactive Cross-filtering** | Clicking any visual element filters the entire dashboard in real-time |
-
----
-
-## 📁 Project Structure
-
-```
-hr-analytics-dashboard/
-│
-├── 📂 data/
-│   └── HR_Analytics_Data.xlsx          # Source HR dataset (Excel)
-│
-├── 📂 dashboard/
-│   └── HR_Data_Analysis_Report.pbix    # Power BI dashboard file
-│
-├── 📂 images/
-│   └── HR_Analytics_Dashboard.png      # Dashboard screenshot for README
-│
-├── 📂 dax/
-│   └── measures.dax                    # All DAX measures (plain text reference)
-│
-└── README.md                           # This file
-```
-
----
-
 ## 🚀 How to Use
 
 ### For Recruiters & Viewers
@@ -233,29 +194,6 @@ You can view the full dashboard screenshot above. To explore the interactive ver
 3. No data connection setup needed — data is embedded in the file
 4. Use the education slicers at the top to filter the entire report
 5. Click any chart segment to cross-filter all other visuals instantly
-
-### For Developers / Analysts
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/hr-analytics-dashboard.git
-
-# Navigate to project
-cd hr-analytics-dashboard
-
-# Open the dashboard (requires Power BI Desktop)
-# File → Open → dashboard/HR_Data_Analysis_Report.pbix
-```
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] Add a **Predictive Attrition Score** using Power BI's Azure ML integration
-- [ ] Build a **Hiring & Recruitment Funnel** page tracking time-to-fill and offer acceptance rates
-- [ ] Create a **Compensation Analysis** page comparing salary bands against industry benchmarks
-- [ ] Add **YoY Attrition Trend** to track improvement over time
-- [ ] Publish to **Power BI Service** with row-level security for department-level access
-- [ ] Integrate **Python visuals** for statistical attrition modeling (logistic regression)
 
 ---
 
@@ -270,9 +208,9 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 **[Your Full Name]**  
 *Data Analyst | Power BI Developer | HR Analytics Enthusiast*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-orange?style=for-the-badge)](https://YOUR_PORTFOLIO_SITE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/arshadkishaikh/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/Arshadkishaikh)
+
 
 ---
 
