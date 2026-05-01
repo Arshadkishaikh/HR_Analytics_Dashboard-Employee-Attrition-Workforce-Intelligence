@@ -136,21 +136,13 @@ CALCULATE(
 -- ─────────────────────────────────────────
 -- 2. Attrition Rate (%)
 -- ─────────────────────────────────────────
-Attrition Rate = 
-DIVIDE(
-    [Attrition Count],
-    COUNT(HR_Data[EmployeeID]),
-    0
-)
+Attrition Rate = SUM(Table1[Attrition Count])/ SUM(Table1[Employee Count])
+
 
 -- ─────────────────────────────────────────
 -- 3. Active Employee Count
 -- ─────────────────────────────────────────
-Active Employees = 
-CALCULATE(
-    COUNT(HR_Data[EmployeeID]),
-    HR_Data[Attrition] = "No"
-)
+Active Employees = SUM(Table1[Employee Count])- SUM(Table1[Attrition Count])
 
 -- ─────────────────────────────────────────
 -- 4. Average Age of Workforce
@@ -205,7 +197,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 👤 Author
 
-**[Your Full Name]**  
+**[ARSHAD K I SHAIKH]**  
 *Data Analyst | Power BI Developer | HR Analytics Enthusiast*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/arshadkishaikh/)
