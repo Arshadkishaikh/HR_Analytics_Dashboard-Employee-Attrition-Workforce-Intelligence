@@ -46,7 +46,7 @@ This dashboard was built to answer the following critical HR questions:
 
 ## 📊 Dashboard Preview
 
-![HR Analytics Dashboard](./images/HR_Analytics_Dashboard.png)
+![HR Analytics Dashboard](./HR_Analytics_Dashboard.png)
 
 > **Dashboard Highlights at a Glance:**
 > - Overall Employees: **1,470** | Active: **1,233** | Attrition: **237**
