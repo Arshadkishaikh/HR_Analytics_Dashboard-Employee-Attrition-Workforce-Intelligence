@@ -151,17 +151,7 @@ Average Age =
 AVERAGE(HR_Data[Age])
 
 -- ─────────────────────────────────────────
--- 5. Attrition by Department (% share)
--- ─────────────────────────────────────────
-Dept Attrition % = 
-DIVIDE(
-    CALCULATE([Attrition Count], ALLEXCEPT(HR_Data, HR_Data[Department])),
-    CALCULATE([Attrition Count], ALL(HR_Data[Department])),
-    0
-)
-
--- ─────────────────────────────────────────
--- 6. Age Band Calculated Column
+-- 5. Age Band Calculated Column
 -- ─────────────────────────────────────────
 CF_Age Band = 
 SWITCH(
